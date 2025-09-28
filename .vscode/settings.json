@@ -9,6 +9,16 @@
             "name": "test",
             "database": "products_db",
             "username": "djumanov"
+        },
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "homew",
+            "database": "products_db",
+            "username": "postgres"
         }
     ]
 }

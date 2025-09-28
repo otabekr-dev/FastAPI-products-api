@@ -1,5 +1,6 @@
 from fastapi.routing import APIRouter
 
+
 router = APIRouter(
     tags=['Orders Endpoints']
 )
@@ -8,6 +9,7 @@ router = APIRouter(
 @router.get("/orders")
 def get_all_orders():
     return {}
+    
 
 
 @router.get("/orders/{order_id}")
